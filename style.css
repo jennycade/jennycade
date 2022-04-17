@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 a {
   text-decoration-thickness: 1px;
+  color: rgb(8, 59, 199);
+}
+a:visited {
+  color:rgb(107, 8, 199);
 }
 h1 a, menu a {
   text-decoration: none;
@@ -50,6 +54,11 @@ li, dd {
 }
 dt {
   font-weight: 400;
+  color: #757575;
+  margin-top: 1rem;
+}
+dd {
+  margin-top: 0.5rem;
 }
 
 /* MOBILE FIRST */
@@ -59,16 +68,22 @@ dt {
 
 main {
   padding: 1rem;
+  background: linear-gradient(#ffffff, 90%, #c3c3c3);
+  background-attachment: scroll; /* this doesn't work because I need to add a container div between main and the sections. main doesn't scroll! */
+  /* perspective: 1px;
+  perspective-origin: 0 0; */
 }
 
 main>section {
-  margin-bottom: 100vh;
+  margin-bottom: 90vh;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  /* transform-origin: 0 0;
+  transform: translateZ(-2px) scale(3); */
 }
 main>section:last-child {
-  margin-bottom: inherit;
+  margin-bottom: 40vh;
 }
 
 /* HEADLINE */
@@ -77,11 +92,13 @@ main>section:last-child {
   height: 300px;
   object-fit: cover;
   border-radius: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* PROJECTS */
 .projects>li {
-  margin-bottom: 5rem;
+  margin-bottom: 40vh;
 }
 .projects img {
   width: 100%;
@@ -125,6 +142,12 @@ main>section:last-child {
     transition: all 500ms ease-in-out, border-left 500ms ease-in-out 500ms;
   }
 
+  /* not for the headline */
+  .nav li.nonactivateable {
+    font-weight: inherit;
+    border-left: none;
+    padding-left: 0;
+  }
 
   main {
     height: 100vh;
