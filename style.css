@@ -72,6 +72,7 @@ main {
   background-attachment: scroll; /* this doesn't work because I need to add a container div between main and the sections. main doesn't scroll! */
   /* perspective: 1px;
   perspective-origin: 0 0; */
+  /* https://developer.chrome.com/blog/performant-parallaxing/ */
 }
 
 main>section {
@@ -98,7 +99,7 @@ main>section:last-child {
 
 /* PROJECTS */
 .projects>li {
-  margin-bottom: 40vh;
+  margin-bottom: 30vh;
 }
 .projects img {
   width: 100%;
@@ -166,5 +167,34 @@ main>section:last-child {
   }
   .projects img {
     width: 15rem;
+  }
+
+  .project-card {
+    display: grid;
+    grid-template-columns: 15rem 1fr;
+  }
+  .project-card>h3 {
+    grid-column: 1 / -1;
+  }
+  .project-card>p {
+    padding-left: 3rem;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+  }
+  .card {
+    background: white;
+    border-radius: 5px;
+    padding: 3rem;
+    box-shadow: 2px 2px 40px rgb(225, 225, 225);
+  }
+  .card h4 {
+    text-align: center;
+  }
+  .card li {
+    margin-bottom: 1rem;
   }
 }
