@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   font-style: italic;
   font-weight: 300;
 }
-p, dt {
+p, dt, dd {
   line-height: 130%;
 }
 
