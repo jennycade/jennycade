@@ -1,0 +1,138 @@
+[
+  {
+    "id": "react",
+    "displayName": "React",
+    "color": "rgb(93, 215, 249)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "true"
+  },
+  {
+    "id": "mongodb",
+    "displayName": "MongoDB",
+    "color": "rgb(105, 225, 114)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "true"
+  },
+  {
+    "id": "express",
+    "displayName": "Express",
+    "color": "rgb(39, 39, 39)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "true"
+  },
+  {
+    "id": "node",
+    "displayName": "Node",
+    "color": "rgb(137, 181, 55)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "true"
+  },
+  {
+    "id": "firebase",
+    "displayName": "Firebase",
+    "color": "rgb(236, 198, 89)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "true"
+  },
+  {
+    "id": "bootstrap",
+    "displayName": "Bootstrap",
+    "color": "rgb(107, 85, 148)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "true"
+  },
+  {
+    "id": "pug",
+    "displayName": "Pug",
+    "color": "rgb(159, 103, 88)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "true"
+  },
+  {
+    "id": "react-router",
+    "displayName": "React Router",
+    "color": "rgb(225, 81, 86)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "true"
+  },
+  {
+    "id": "python",
+    "displayName": "Python",
+    "color": "rgb(71, 117, 167)",
+    "icon": "",
+    "category": "previous",
+    "tagProjects": "true"
+  },
+  {
+    "id": "r",
+    "displayName": "R",
+    "color": "rgb(47, 92, 165)",
+    "icon": "",
+    "category": "previous",
+    "tagProjects": "true"
+  },
+  {
+    "id": "php",
+    "displayName": "PHP",
+    "color": "rgb(112, 115, 164)",
+    "icon": "",
+    "category": "previous",
+    "tagProjects": "true"
+  }, 
+  {
+    "id": "mysql",
+    "displayName": "MySQL",
+    "color": "rgb(222, 145, 55)",
+    "icon": "",
+    "category": "previous",
+    "tagProjects": "true"
+  },
+  {
+    "id": "java",
+    "displayName": "Java",
+    "color": "rgb(93, 130, 159)",
+    "icon": "",
+    "category": "previous",
+    "tagProjects": "true"
+  },
+  {
+    "id": "javascript",
+    "displayName": "Javascript",
+    "color": "rgb(234, 216, 77)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "false"
+  },
+  {
+    "id": "html5",
+    "displayName": "Semantic HTML5",
+    "color": "rgb(212, 87, 50)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "false"
+  },
+  {
+    "id": "css3",
+    "displayName": "CSS3",
+    "color": "rgb(48, 76, 220)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "false"
+  },
+  {
+    "id": "",
+    "displayName": "Git",
+    "color": "rgb(215, 90, 62)",
+    "icon": "",
+    "category": "main",
+    "tagProjects": "false"
+  }
+]

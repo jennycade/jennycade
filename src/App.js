@@ -10,6 +10,9 @@ import { useState } from 'react';
 // images
 import jennyPhoto from './assets/optimized/jzonka.jpg';
 
+// components
+import Languages from './Languages';
+
 function App() {
   // state
   const [projectKeyword, setProjectKeyword] = useState('');
@@ -45,70 +48,8 @@ function App() {
           />
           <p>I'm a full-stack developer who loves to make useful and interesting web apps. I have previous experience in education, biology research, and sustainable agriculture.</p>
 
-          <section className="card-container">
-            <section className="card">
-              <h4>Languages & Tools</h4>
-              <ul>
-                <li><img src="assets/icons/react.svg"
-                  alt="React icon"
-                  className="icon"
-                  /> React</li>
-                <li><img src="assets/icons/express.svg"
-                  alt="Express icon"
-                  className="icon"
-                  /> Express.js</li>
-                <li><img src="assets/icons/javascript.svg"
-                  alt="Javascript icon"
-                  className="icon"
-                  /> Javascript</li>
-                <li><img src="assets/icons/html5.svg"
-                  alt="HTML5 icon"
-                  className="icon"
-                  /> Semantic HTML5</li>
-                <li><img src="assets/icons/css3.svg"
-                  alt="CSS3 icon"
-                  className="icon"
-                  /> CSS</li>
-                <li><img src="assets/icons/mongodb.svg"
-                  alt="MongoDB icon"
-                  className="icon"
-                  /> MongoDB</li>
-                <li><img src="assets/icons/firebase.svg"
-                  alt="Firebase icon"
-                  className="icon"
-                  /> Firebase</li>
-                <li><img src="assets/icons/git.svg"
-                  alt="Git icon"
-                  className="icon"
-                  /> Git</li>
-              </ul>
-            </section>
-            <section className="card">
-              <h4>Previously used</h4>
-              <ul>
-                <li><img src="assets/icons/python.svg"
-                  alt="Python icon"
-                  className="icon"
-                  /> Python</li>
-                <li><img src="assets/icons/r.svg"
-                  alt="R icon"
-                  className="icon"
-                  /> R</li>
-                <li><img src="assets/icons/php.svg"
-                  alt="PHP icon"
-                  className="icon"
-                  /> PHP</li>
-                <li><img src="assets/icons/mysql.svg"
-                  alt="MySQL icon"
-                  className="icon"
-                  /> MySQL</li>
-                <li><img src="assets/icons/java.svg"
-                  alt="Java icon"
-                  className="icon"
-                  /> Java</li>
-              </ul>
-            </section>
-          </section>
+          <Languages />
+
         </section>
 
         <section id="projects">
@@ -143,7 +84,7 @@ function App() {
 
               <dl>
                 <dt>Completed</dt>
-                <dd><time datetime="2022-01">January 2022</time></dd>
+                <dd><time dateTime="2022-01">January 2022</time></dd>
 
                 <dt>Built with</dt>
                 <dd><span className="pill react">React</span> <span className="pill firebase">Firebase</span> <span className="pill"><a href="https://docs.slatejs.org/">Slate</a></span> <span className="pill react-router">React Router</span></dd>
@@ -163,7 +104,7 @@ function App() {
 
               <dl>
                 <dt>Completed</dt>
-                <dd><time datetime="2022-02">February 2022</time></dd>
+                <dd><time dateTime="2022-02">February 2022</time></dd>
 
                 <dt>Built with</dt>
                 <dd><span className="pill mongodb">MongoDB</span> <span className="pill nod">Node</span> <span className="pill express">Express</span> <span className="pill pug">PUG</span> <span className="pill bootstrap">Bootstrap</span></dd>
@@ -183,7 +124,7 @@ function App() {
 
               <dl>
                 <dt>Completed</dt>
-                <dd><time datetime="2021-08">August 2021</time></dd>
+                <dd><time dateTime="2021-08">August 2021</time></dd>
 
                 <dt>Built with</dt>
                 <dd><span className="pill react">React</span> <span className="pill firebase">Firebase</span></dd>
@@ -203,7 +144,7 @@ function App() {
 
               <dl>
                 <dt>Completed</dt>
-                <dd><time datetime="2021-08">August 2021</time></dd>
+                <dd><time dateTime="2021-08">August 2021</time></dd>
 
                 <dt>Built with</dt>
                 <dd><span className="pill react">React</span></dd>
