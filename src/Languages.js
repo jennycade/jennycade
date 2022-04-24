@@ -1,8 +1,5 @@
 import Tools from './tools.json';
 
-// all the images
-import Icon_css3 from './assets/icons/css3.svg';
-
 function Languages(props) {
 
   // tools -> Languages cards
@@ -16,7 +13,7 @@ function Languages(props) {
         <ul>
           {mainLanguages.map((tool) => (
             <li key={tool.id}>
-              <img src={Icon_css3}
+              <img src={`%PUBLIC_URL%/assets/icons/${tool.id}.svg`}
                 alt=""
                 className="icon"
               />
@@ -28,23 +25,23 @@ function Languages(props) {
       <section className="card">
         <h4>Previously used</h4>
         <ul>
-          <li><img src="assets/icons/python.svg"
+          <li><img src="%PUBLIC_URL%/assets/icons/python.svg"
             alt="Python icon"
             className="icon"
             /> Python</li>
-          <li><img src="assets/icons/r.svg"
+          <li><img src="%PUBLIC_URL%/assets/icons/r.svg"
             alt="R icon"
             className="icon"
             /> R</li>
-          <li><img src="assets/icons/php.svg"
+          <li><img src="%PUBLIC_URL%/assets/icons/php.svg"
             alt="PHP icon"
             className="icon"
             /> PHP</li>
-          <li><img src="assets/icons/mysql.svg"
+          <li><img src="%PUBLIC_URL%/assets/icons/mysql.svg"
             alt="MySQL icon"
             className="icon"
             /> MySQL</li>
-          <li><img src="assets/icons/java.svg"
+          <li><img src="%PUBLIC_URL%/assets/icons/java.svg"
             alt="Java icon"
             className="icon"
             /> Java</li>
