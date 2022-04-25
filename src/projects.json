@@ -1,0 +1,117 @@
+[
+  {
+    "id": "blog",
+    "category": "main",
+    "displayName": "Blog API",
+    "description": "Blog site with a RESTful API, public front end, and admin site.",
+    "completed": "Currently building",
+    "tools": [
+      "mongodb",
+      "express",
+      "node",
+      "react",
+      "reactrouter"
+    ],
+    "links": [
+      {
+        "linkText": "API repo",
+        "url": "https://github.com/jennycade/blog-api"
+      },
+      {
+        "linkText": "Public frontend repo",
+        "url": "https://github.com/jennycade/blog-frontend"
+      },
+      {
+        "linkText": "Admin frontend repo",
+        "url": "https://github.com/jennycade/blog-admin"
+      }
+    ]
+  },
+  {
+    "id": "clotion",
+    "category": "main",
+    "displayName": "Clotion",
+    "description": "Simple clone of <a href=\"https://www.notion.so/\">Notion</a> with rich text editing and databases. This was the final project for the Javascript course in The Odin Project.",
+    "completed": "January 2022",
+    "tools": [
+      "react",
+      "reactrouter",
+      "firebase"
+    ],
+    "links": [
+      {
+        "linkText": "Repo",
+        "url": "https://github.com/jennycade/clotion"
+      },
+      {
+        "linkText": "Demo",
+        "url": "https://clotion-5e4b4.web.app/"
+      }
+    ]
+  },
+  {
+    "id": "yeoldeadventuringshoppe",
+    "category": "main",
+    "displayName": "Ye Olde Adventuring Shoppe",
+    "description": "Editable database of weapons, armor, and shops for Dungeons & Dragons 5e.",
+    "completed": "February 2022",
+    "tools": [
+      "mongodb",
+      "node",
+      "express",
+      "pug",
+      "bootstrap"
+    ],
+    "links": [
+      {
+        "linkText": "Repo",
+        "url": "https://github.com/jennycade/ye-olde-adventuring-shoppe"
+      },
+      {
+        "linkText": "Demo",
+        "url": "https://fathomless-anchorage-69781.herokuapp.com/"
+      }
+    ]
+  },
+  {
+    "id": "scavengerhunt",
+    "category": "main",
+    "displayName": "Internet Scavenger Hunt",
+    "description": "An internet scavenger hunt game based on art by <a href=\"https://aaronzonka.com/\">Aaron Zonka</a>",
+    "completed": "August 2021",
+    "tools": [
+      "react",
+      "firebase"
+    ],
+    "links": [
+      {
+        "linkText": "Repo",
+        "url": "https://github.com/jennycade/scavenger-hunt"
+      },
+      {
+        "linkText": "Demo",
+        "url": "https://internet-scavenger-hunt.web.app/"
+      }
+    ]
+  },
+  {
+    "id": "pixelplant",
+    "category": "main",
+    "displayName": "Pixel Plant",
+    "description": "Educational game created for the <a href=\"https://itch.io/jam/top-jam-1/rate/1151984\">TOP-Jam 1 Edutainment game jam</a>. Rated #7 out of 37 entries for Creativity/Originality.",
+    "completed": "August 2021",
+    "tools": [
+      "react"
+    ],
+    "links": [
+      {
+        "linkText": "Repo",
+        "url": "https://github.com/jennycade/simplant"
+      },
+      {
+        "linkText": "Demo",
+        "url": "https://jennycade.itch.io/pixel-plant"
+      }
+    ]
+  }
+]

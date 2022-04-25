@@ -20,6 +20,7 @@ function Languages(props) {
               <img src={ICONS[tool.id]}
                 alt=""
                 className="icon"
+                style={{color: tool.color}}
               />
               {tool.displayName}
             </li>
