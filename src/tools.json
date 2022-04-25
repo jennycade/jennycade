@@ -50,15 +50,15 @@
   {
     "id": "pug",
     "displayName": "Pug",
-    "color": "rgb(159, 103, 88)",
+    "color": "#A86454",
     "icon": "",
     "category": "main",
     "tagProjects": "true"
   },
   {
-    "id": "react-router",
+    "id": "reactrouter",
     "displayName": "React Router",
-    "color": "rgb(225, 81, 86)",
+    "color": "#CA4245",
     "icon": "",
     "category": "main",
     "tagProjects": "true"
@@ -128,7 +128,7 @@
     "tagProjects": "false"
   },
   {
-    "id": "",
+    "id": "git",
     "displayName": "Git",
     "color": "rgb(215, 90, 62)",
     "icon": "",
