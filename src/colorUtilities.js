@@ -40,14 +40,16 @@ export const calculateRelativeLuminance = (colorCode) => {
   return lum;
 }
 
-
 export const chooseTextColor = (bgColor) => {
-  // calculate foreground white vs. black based on bg
-  // hex or rgb
-  // (L1 + 0.05) / (L2 + 0.05), where
-  // L1 is the relative luminance of the lighter of the colors, and
-  // L2 is the relative luminance of the darker of the colors.
+  // Should the foreground color be white or black?
+  // Choose the greater contrast ratio
 
-  // TODO: This part!
+  const bgLuminance = calculateRelativeLuminance(bgColor);
   
+  // easier - use 255 / 2 as cutoff
+  if (bgLuminance > 255 / 2) {
+    return 'black';
+  } else {
+    return 'white';
+  }
 }
