@@ -16,7 +16,7 @@ import Projects from './Projects';
 
 function App() {
   // state
-  const [projectKeyword, setProjectKeyword] = useState('');
+  const [projectKeywords, setProjectKeywords] = useState([]);
 
   return (
     <div className="App">
@@ -53,7 +53,7 @@ function App() {
 
         </section>
 
-        <Projects />
+        <Projects filterTags={projectKeywords} />
 
         <section id="about">
           <h2>About</h2>
@@ -62,7 +62,7 @@ function App() {
             <h3>Bio</h3>
             <p>I love to learn and I love to make things. I have been a teacher, a scientist, and a farmer. The throughline in all my careers is building things and solving problems with code.</p>
 
-            <p>These days I am a stay-at-home mom, and during my toddler's naps I work my way through the open-source curriculum <a href="https://www.theodinproject.com/">The Odin Project</a>. As I near the end of the curriculum, I am excited to look for an opportunity to pursue web development full-time and work as part of a team.</p>
+            <p>These days I am a stay-at-home mom, and during my toddler's naps I work my way through the open-source curriculum <a href="https://www.theodinproject.com/">The Odin Project</a>. As I near the end of the curriculum, I am excited to look for an opportunity to pursue web development full-time. My goal is to work as part of a collaborative team where I can continue to learn while contributing to a useful product.</p>
           </section>
 
           <section>
@@ -75,10 +75,10 @@ function App() {
               Interests and Hobbies
             </h3>
             <ul>
-              <li>Cooking</li>
-              <li><a href="https://humblewood.com/">DMing a weekly D&D game</a></li>
-              <li><a href="https://upchieve.org/">Volunteer tutoring</a></li>
-              <li>Baking bread</li>
+              <li>🥘 Cooking</li>
+              <li>⚔️ <a href="https://humblewood.com/">DMing a weekly D&amp;D game</a></li>
+              <li>👩🏻‍🏫 <a href="https://upchieve.org/">Volunteer tutoring</a></li>
+              <li>🥖 Baking bread</li>
             </ul>
           </section>
         </section>

@@ -10,9 +10,17 @@ import { chooseTextColor } from './colorUtilities';
 
 function Projects(props) {
   // props
+  const { filterTags } = props;
 
   // projectsList JSON -> cards
   const mainProjects = projectList.filter(project => project.category === 'main');
+
+  if (filterTags.length > 0) {
+    // TODO: find relevant projects
+  }
+
+  // TODO: add tags that aren't for displaying (e.g. JS, html)
+  // TODO: make previous jobs section read from .json too, and add tags (for filtering, not displaying)
 
   return (
     <section id="projects">
