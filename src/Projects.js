@@ -3,6 +3,8 @@ import SCREENSHOTS from './assets/portfolioScreenshots';
 import tools from './tools.json';
 import ICONS from './assets/icons';
 
+import { chooseTextColor } from './colorUtilities';
+
 // react
 // import { useState } from 'react';
 
@@ -39,19 +41,26 @@ function Projects(props) {
                   {
                     project.tools.map(tool => {
                       const toolInfo = tools.find(t => t.id === tool);
-                      
-                      // bgColor?
+                      const bgColor = toolInfo.color;
+                      const fgColor = chooseTextColor(bgColor);
+                      // colors
                       const style = {
-                        backgroundColor: toolInfo.color
+                        backgroundColor: bgColor,
+                        color: fgColor,
+                        fill: fgColor,
                       }
-                      // TODO: figure it out here then move it into its own function elsewhere
+
                       return (
                       <span
                         key={tool}
                         className={`pill`}
                         style={style}
                       >
-                        <img className="icon" src={ICONS[tool]} alt="" />
+                        <img
+                          className={`icon ${fgColor === 'white' ? 'invertColor' : ''}`}
+                          src={ICONS[tool]}
+                          alt=""
+                        />
                         {toolInfo.displayName}
                       </span>
                     )})

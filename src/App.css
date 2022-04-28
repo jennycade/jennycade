@@ -49,6 +49,12 @@ h1 {
   font-size: 300%;
 }
 
+.invertColor {
+  filter: invert(100%);
+}
+
+/* LAYOUT */
+
 main {
   scroll-behavior: smooth;
 }
@@ -129,35 +135,10 @@ main>section:last-child {
   padding: 0.25rem 0.5rem;
   border-radius: 2rem;
   font-weight: 300;
-}
-.react {
-  background-color: var(--react-color);
-  fill: var(--react-color);
-}
-.mongodb {
-  background-color: var(--mongodb-color);
-}
-.express {
-  background-color: var(--express-color);
-}
-.node {
-  background-color: var(--node-color);
-}
-.firebase {
-  background-color: var(--firebase-color);
-}
-.bootstrap {
-  background-color: var(--bootstrap-color);
-}
-.pug {
-  background-color: var(--pug-color);
-}
-.react-router {
-  background-color: var(--react-router-color);
-}
-/* foreground */
-.express, .bootstrap, .pug {
-  color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-right: 0.25rem;
 }
 
 /* CONTACT */
