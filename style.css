@@ -65,6 +65,15 @@ dd {
   margin-top: 0.5rem;
 }
 
+.bullet {
+  margin: initial;
+  padding: 0 0 0 1rem;
+}
+.bullet li {
+  list-style: inherit;
+  margin: 1rem 0;
+}
+
 /* MOBILE FIRST */
 .nav {
   display: none;
@@ -72,15 +81,10 @@ dd {
 
 main {
   padding: 1rem;
-  background: linear-gradient(#ffffff, 90%, #c3c3c3);
-  background-attachment: scroll; /* this doesn't work because I need to add a container div between main and the sections. main doesn't scroll! */
-  /* perspective: 1px;
-  perspective-origin: 0 0; */
-  /* https://developer.chrome.com/blog/performant-parallaxing/ */
 }
 
 main>section {
-  margin-bottom: 90vh;
+  margin-bottom: 50vh;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
@@ -98,7 +102,7 @@ main>section:last-child {
   object-fit: cover;
   border-radius: 200px;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 3rem auto;
 }
 
 /* PROJECTS */
