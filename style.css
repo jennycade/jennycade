@@ -200,6 +200,9 @@ main>section:last-child {
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
   }
+  .span2 {
+    grid-column-end: span 2;
+  }
   .card {
     background: white;
     border-radius: 5px;
